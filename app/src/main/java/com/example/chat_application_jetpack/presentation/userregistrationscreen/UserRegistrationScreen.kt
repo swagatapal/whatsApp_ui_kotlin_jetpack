@@ -75,11 +75,19 @@ fun UserRegistrationScreen(modifier: Modifier = Modifier) {
                     color = Color.Black
                 )
 
-                Icon(imageVector = Icons.Default.ArrowDropDown, contentDescription = null, modifier = Modifier.align(Alignment.CenterEnd))
+                Icon(
+                    imageVector = Icons.Default.ArrowDropDown,
+                    contentDescription = null,
+                    modifier = Modifier.align(Alignment.CenterEnd,
+),
+                    tint = colorResource(id =R.color.dark_green
+                    )
+                )
 
             }
 
         }
+
 
 
     }
